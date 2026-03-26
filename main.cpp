@@ -1,7 +1,8 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    std::cout << "Widze projekt! Test C++ na Windowsie i Macu." << std::endl;
-    std::cout << "JakubTO NIE JESTT Gej!!!" << std::endl;
+    cout << "Widze projekt! Test C++ na Windowsie i Macu." << endl;
+    cout << "JakubTO NIE JESTT Gej!!!" << endl;
     return 0;
 }
