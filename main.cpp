@@ -7,22 +7,22 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "SandSim Test");
 
     // 2. Tworzymy Czerwone Kolo
-    sf::CircleShape circle(100.f); // Promieñ 100
-    circle.setFillColor(sf::Color::Red); // Ustawiamy kolor wype³nienia na czerwony
-    // Ustawiamy œrodek ko³a w œrodku okna (800/2, 600/2)
+    sf::CircleShape circle(100.f); // Promieï¿½ 100
+    circle.setFillColor(sf::Color::Red); // Ustawiamy kolor wypeï¿½nienia na czerwony
+    // Ustawiamy ï¿½rodek koï¿½a w ï¿½rodku okna (800/2, 600/2)
     circle.setOrigin(100.f, 100.f);
     circle.setPosition(400.f, 300.f);
 
     // 3. Tworzymy Bialy Kwadrat (prostokat, ale z takimi samymi bokami)
     sf::RectangleShape square(sf::Vector2f(80.f, 80.f)); // Szerokosc i wysokosc 80x80
     square.setFillColor(sf::Color::White); // Ustawiamy kolor na bialy
-    // Ustawiamy œrodek kwadratu w œrodku okna
+    // Ustawiamy ï¿½rodek kwadratu w ï¿½rodku okna
     square.setOrigin(40.f, 40.f);
     square.setPosition(400.f, 300.f); // Nakladamy go na srodek kola
 
-    // 4. Glowna petla gry (dzia³a dopóki okno jest otwarte)
+    // 4. Glowna petla gry (dziaï¿½a dopï¿½ki okno jest otwarte)
     while (window.isOpen()) {
-        // Obs³uga eventów (np. zamkniecie okna)
+        // Obsï¿½uga eventï¿½w (np. zamkniecie okna)
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
@@ -34,7 +34,7 @@ int main() {
         // A. Czyscimy okno (np. na czarno)
         window.clear(sf::Color::Black);
 
-        // B. Rysujemy kszta³ty w odpowiedniej kolejnosci (najpierw ko³o, na nim kwadrat)
+        // B. Rysujemy ksztaï¿½ty w odpowiedniej kolejnosci (najpierw koï¿½o, na nim kwadrat)
         window.draw(circle);
         window.draw(square);
 

@@ -1,0 +1,3 @@
+/Users/jakubbroncel/2. Areas/coding/HelloWorld/projects/helloworld/PRO_MS_semestr2/SandboxCPP/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/Users/jakubbroncel/2. Areas/coding/HelloWorld/projects/helloworld/PRO_MS_semestr2/SandboxCPP/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/Users/jakubbroncel/2. Areas/coding/HelloWorld/projects/helloworld/PRO_MS_semestr2/SandboxCPP/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir
