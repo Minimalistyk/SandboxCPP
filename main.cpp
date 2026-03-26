@@ -20,6 +20,18 @@ int main() {
     square.setOrigin(40.f, 40.f);
     square.setPosition(400.f, 300.f); // Nakladamy go na srodek kola
 
+    // Trójk¹t lewy
+    sf::CircleShape triangleLeft(50.f, 3); // Promieñ 50, 3 wierzcho³ki
+    triangleLeft.setFillColor(sf::Color::Yellow);
+    triangleLeft.setOrigin(50.f, 50.f);
+    triangleLeft.setPosition(200.f, 300.f); // Odsuniêty w lewo
+
+    // Trójk¹t prawy
+    sf::CircleShape triangleRight(50.f, 3);
+    triangleRight.setFillColor(sf::Color::Yellow);
+    triangleRight.setOrigin(50.f, 50.f);
+    triangleRight.setPosition(600.f, 300.f); // Odsuniêty w prawo
+
     // 4. Glowna petla gry (dzia³a dopóki okno jest otwarte)
     while (window.isOpen()) {
         // Obs³uga eventów (np. zamkniecie okna)
@@ -37,6 +49,8 @@ int main() {
         // B. Rysujemy kszta³ty w odpowiedniej kolejnosci (najpierw ko³o, na nim kwadrat)
         window.draw(circle);
         window.draw(square);
+        window.draw(triangleLeft);
+        window.draw(triangleRight);
 
         // C. Wyswietlamy wszystko, co narysowalismy
         window.display();
