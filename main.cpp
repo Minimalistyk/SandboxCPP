@@ -37,8 +37,6 @@ int main() {
         // B. Rysujemy ksztaďż˝ty w odpowiedniej kolejnosci (najpierw koďż˝o, na nim kwadrat)
         window.draw(circle);
         window.draw(square);
-        window.draw(triangleLeft);
-        window.draw(triangleRight);
 
         // C. Wyswietlamy wszystko, co narysowalismy
         window.display();
